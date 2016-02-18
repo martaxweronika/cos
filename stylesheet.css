@@ -1,0 +1,57 @@
+
+body {
+
+}
+
+
+#side1 {
+	min-height: 200vh;
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#339e88, #61317d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#339e88, #61317d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#339e88, #61317d); /* For Firefox 3.6 to 15 */
+    background: gradient(#339e88, #61317d); /* Standard syntax */
+
+}
+@font-face {
+  font-family: 'ChaparralPro-LightIt';
+  src: "fonts/ChaparralPro-LightIt.otf"; /* IE9 Compat Modes */
+
+}
+@font-face {
+  font-family: 'Lato-Light';
+  src: "fonts/Lato-Light.ttf"; /* IE9 Compat Modes */
+  
+}
+
+#title {
+  position: relative;
+  top:40vh;
+  text-align:center; 
+  color: white;
+  font-family: ChaparralPro-LightIt;
+  font-size: 300%;
+  letter-spacing: 2px;
+
+}
+
+#description {
+  position: relative;
+  top:35vh;
+  text-align:center; 
+  color: white;
+  font-family: Lato-Light;
+  letter-spacing: 2px;
+
+}
+#plant {
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+    float: bottom;
+    padding: 280px;
+
+ 
+    
+}
+
